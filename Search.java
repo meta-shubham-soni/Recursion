@@ -35,7 +35,7 @@ public class Search {
 	 * @return index if found else -1
 	 */
 	public int linearSearch(int[] arr,int len,int currentInd,int key){
-		if(currentInd >= len)
+		if(currentInd > len)
 			return -1;
 		if(arr[currentInd] == key)
 			return currentInd;
